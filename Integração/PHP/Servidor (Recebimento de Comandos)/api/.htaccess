@@ -1,0 +1,4 @@
+# REMOVER A EXTENSAO .PHP DA URL
+ RewriteEngine On
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteRule ^([^\.]+)$ $1.php [NC,L]
