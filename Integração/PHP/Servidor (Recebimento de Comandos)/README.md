@@ -29,6 +29,6 @@ Se na controladora foi configurado o host como 192.168.1.1 e porta 3000, o compu
 O item `heartbeat_period` define o tempo que o comando heartbeat é enviado ao servidor, esse tempo é em segundos, para desativar deve-se configurar com o valor zero 
 ### Arquivo .htaccess (para servidor apache)
 Dentro do arquivo .htaccess existe uma configuração para retirar a extensão do arquivo PHP, pois a controladora envia comandos para endpoints distintos sem extensão de arquivo, garantindo compatibilidade com qualquer linguagem de programação, caso esteja utilizando servidor do tipo ngix deve-se aplicar a mesma regra
-### Teste alteranativo (Mockoon)
+### Teste alternativo (Mockoon)
 Para efetuar testes alternativos afim de garantir que a controladora esteja enviando comandos corretamente para o computador pode ser utilizada uma ferramenta chamada Mockoon. 
 [Clique aqui para efetuar o download do Mockoon](https://mockoon.com/download/#download-section)
