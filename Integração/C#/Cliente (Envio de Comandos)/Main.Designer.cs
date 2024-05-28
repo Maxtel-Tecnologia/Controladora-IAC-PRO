@@ -173,7 +173,7 @@
             txtEndPoint.Name = "txtEndPoint";
             txtEndPoint.Size = new Size(116, 27);
             txtEndPoint.TabIndex = 0;
-            txtEndPoint.Text = "10.0.0.86";
+            txtEndPoint.Text = "192.168.1.200";
             // 
             // statusStrip1
             // 

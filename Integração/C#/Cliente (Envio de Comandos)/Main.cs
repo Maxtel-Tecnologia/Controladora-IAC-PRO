@@ -670,6 +670,7 @@ namespace IAC_PRO
                 }
 
                 progressBar1.Value = progressBar1.Value += 10;
+
                 using var client = new RestClient(options);
 
                 var request = new RestRequest("", Method.Post);
